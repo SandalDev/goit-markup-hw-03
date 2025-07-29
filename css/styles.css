@@ -4,6 +4,7 @@ body {
   background-color: #ffffff;
   margin: 0;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -12,6 +13,7 @@ img {
 button {
   cursor: pointer;
 }
+
 h1,
 h2,
 h3,
@@ -22,11 +24,13 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 a {
   text-decoration: none;
   color: #2e2f42;
   font-style: normal;
 }
+
 ul {
   list-style-type: none;
 }
@@ -46,12 +50,14 @@ main {
 section {
   padding: 120px 0;
 }
+
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-/* /* header-page */
+
+/* header-page */
 
 .nav-container {
   display: flex;
@@ -98,13 +104,12 @@ section {
   padding: 24px 0;
   display: block;
 }
-.menu:focus {
-  color: #404bbf;
-}
 
+.menu:focus,
 .menu:hover {
   color: #404bbf;
 }
+
 .address {
   font-style: normal;
   margin-left: auto;
@@ -115,8 +120,7 @@ section {
   gap: 40px;
   align-items: center;
 }
-.contact-list-item {
-}
+
 .email {
   display: block;
   font-weight: 400;
@@ -147,7 +151,6 @@ section {
   color: #ffffff;
   line-height: 1.07;
   font-size: 56px;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
@@ -164,9 +167,7 @@ section {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  margin-top: 48px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 48px auto 0;
 }
 
 .order-button:hover,
@@ -174,7 +175,7 @@ section {
   background-color: #404bbf;
 }
 
-/* charachteristics */
+/* characteristics */
 
 .characteristics-container {
 }
@@ -191,6 +192,7 @@ section {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .characteristics {
   font-weight: 500;
   font-size: 20px;
@@ -199,14 +201,16 @@ section {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .characteristics-list {
   gap: 24px;
   display: flex;
 }
 
 .characteristics-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
+
 .definition {
   font-weight: 400;
   font-size: 16px;
@@ -230,7 +234,6 @@ section {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -261,6 +264,7 @@ section {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .profession {
   font-weight: 400;
   font-size: 16px;
@@ -268,7 +272,7 @@ section {
   letter-spacing: 0.02em;
 }
 
-/* portfolio section  */
+/* portfolio section */
 
 .portfolio-title {
   font-weight: 700;
@@ -287,6 +291,7 @@ section {
   column-gap: 24px;
   row-gap: 48px;
 }
+
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
 }
@@ -314,16 +319,18 @@ section {
   color: #434455;
 }
 
-/* bottom */
+/* footer */
 
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 100px 0;
 }
+
 .footer-container {
   margin-left: 156px;
 }
+
 .last-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
